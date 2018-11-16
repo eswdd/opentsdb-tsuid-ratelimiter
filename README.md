@@ -21,3 +21,5 @@ tsd.meta.cache.max_size=100000
 ```
 tsd.meta.cache.ttl_seconds=3600
 ```
+
+If you can afford the memory, to get the maximum benefit, it's recommended to set the cache size to the maximum number of unique time series you expect to see within the TTL period.
